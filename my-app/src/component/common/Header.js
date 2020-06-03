@@ -36,7 +36,10 @@ class HomePage extends Component {
           <h2 className="header-title">Project App</h2>
         </div>
         <div>
-          <FaRegUserCircle className="navbar-icon" />
+        <Link to="/authentification">
+              <FaRegUserCircle className="navbar-icon" />
+          </Link>
+         
         </div>
         {this.state.navbarOpen &&
           <div className="sidebar">

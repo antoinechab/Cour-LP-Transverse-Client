@@ -11,6 +11,7 @@ import ProjectDetail from "./component/project/ProjectDetail";
 import Header from "./component/common/Header";
 import Navbar from "./component/common/Navbar";
 import ProjectCreate from "./component/project/ProjectCreate";
+import Auth from "./component/user/Auth";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route path="/new-project">
             <ProjectCreate />
+          </Route>
+          <Route path="/authentification">
+            <Auth />
           </Route>
         </Switch>
       </div>
